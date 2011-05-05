@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 require 'benchmark'
-require File.join(File.dirname(__FILE__), 'wide_finder')
+require File.join(File.dirname(__FILE__), 'widefinder')
 
 class WideFinderTest < MiniTest::Unit::TestCase
 
