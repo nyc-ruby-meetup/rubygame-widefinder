@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 require 'benchmark'
-require File.join(File.dirname(__FILE__), 'wide_finder')
+require File.join(File.dirname(__FILE__), 'widefinder')
 
 class WideFinderTest < MiniTest::Unit::TestCase
 
@@ -8,7 +8,7 @@ class WideFinderTest < MiniTest::Unit::TestCase
   def setup
     @filename = 'raw_data.log'
   end
-  
+
   def test_that_it_finds_the_top_three_hits
     measure = Benchmark.measure do
       sample = WideFinder.new(@filename)
