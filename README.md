@@ -1,4 +1,4 @@
-= RubyGame Widefinder
+# RubyGame Widefinder
 
 This RubyGame is based on the Widefinder challenge. The goal of the challenge is to read a logfile and figure out which articles have been fetched the most.
 
